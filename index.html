@@ -4,9 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Triplehowl LLC, makers of Housewright</title>
-<meta name="description" content="Triplehowl LLC is a software company. We make Housewright, job management software for residential general contractors.">
+<meta name="description" content="Triplehowl LLC is a software company. We make Housewright, the job management suite for residential general contractors.">
 <link rel="canonical" href="https://www.triplehowl.com/">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#13221b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Triplehowl LLC">
 <meta property="og:title" content="Triplehowl LLC, makers of Housewright">
@@ -24,114 +25,194 @@
   "brand": { "@type": "Brand", "name": "Housewright", "url": "https://housewright.app/" }
 }
 </script>
+<script src="assets/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="wrap top">
-  <a class="brand" href="./" aria-label="Triplehowl LLC, home">
-    <svg class="mark" viewBox="0 0 72 64" aria-hidden="true"><circle class="moon" cx="54" cy="25" r="11.5"/><path class="gap" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/><path class="roofs" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/><path class="walls" d="M26 42V58M46 42V58"/></svg>
-    Triplehowl
-  </a>
-  <nav aria-label="Main">
-    <a href="#housewright">Housewright</a>
-    <a href="#company">Company</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+<div class="night hero">
+  <header class="wrap top">
+    <a class="brand" href="./" aria-label="Triplehowl LLC, home">
+      <svg class="mark" viewBox="0 0 72 64" aria-hidden="true"><circle class="moon" cx="54" cy="25" r="11.5"/><path class="gap" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/><path class="roofs" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/><path class="walls" d="M26 42V58M46 42V58"/></svg>
+      Triplehowl
+    </a>
+    <nav aria-label="Main">
+      <a href="#housewright">Housewright</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="wrap hero-body">
+    <h1>Software for the people who build houses.</h1>
+    <p class="lead"><strong>Triplehowl LLC</strong> makes <strong>Housewright</strong>, the job management suite for residential general contractors. Estimates, schedules, daily logs, change orders and pay applications, from the office to the job site.</p>
+    <div class="actions">
+      <a class="button button-moon" href="#housewright">See Housewright</a>
+      <a class="link-on-night" href="mailto:info@triplehowl.com">info@triplehowl.com</a>
+    </div>
+  </div>
+
+  <div class="moon-disc" aria-hidden="true"></div>
+  <svg class="roofline" viewBox="0 0 1440 170" preserveAspectRatio="none" aria-hidden="true"><path d="M0 170V112L240 22L480 112L720 22L960 112L1200 22L1440 112V170Z"/></svg>
+</div>
 
 <main id="main">
-  <section class="wrap hero">
-    <div>
-      <h1>Software for the people who build houses.</h1>
-      <p class="lead"><strong>Triplehowl LLC</strong> is a software company. We make <strong>Housewright</strong>, a set of tools for residential general contractors that runs a job from the first estimate to the final payment.</p>
-      <div class="actions">
-        <a class="button" href="https://housewright.app/">Visit housewright.app</a>
-        <a href="#contact">Get in touch</a>
+  <section class="stage-sec" aria-label="The Housewright apps">
+    <div class="wrap">
+      <div class="stage">
+        <figure class="desk"><img src="assets/img/hw-desktop-sov.webp" width="2200" height="1358" alt="Housewright Desktop showing the schedule of values for a sample custom home."></figure>
+        <figure class="phone phone-left"><img src="assets/img/hw-companion-punch.webp" width="800" height="1739" alt="Housewright Companion on iPhone showing a punch list grouped by room."></figure>
+        <figure class="phone phone-right"><img src="assets/img/hw-calc-stairs.webp" width="800" height="1738" alt="Housewright Calc laying out a stair: 16 risers at 6-3/4 inches."></figure>
       </div>
+      <p class="stage-caption">Housewright Desktop, Companion and Calc. Every screen on this site shows a made-up builder.</p>
     </div>
-    <svg class="mark hero-mark" viewBox="0 0 72 64" role="img" aria-label="The Triplehowl mark: three houses with the moon rising behind them">
-      <circle class="moon" cx="54" cy="25" r="11.5"/><path class="gap" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/>
-      <path class="roofs" pathLength="1" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/>
-      <path class="walls" pathLength="1" d="M26 42V58M46 42V58"/>
-    </svg>
   </section>
 
-  <section class="hw" id="housewright" aria-labelledby="hw-title">
+  <section class="hw section" id="housewright" aria-labelledby="hw-title">
     <div class="wrap">
-      <div class="hw-intro">
-        <div class="hw-head">
-          <img src="assets/img/housewright-icon.png" width="60" height="60" alt="">
-          <h2 class="wordmark" id="hw-title">House<span>wright</span></h2>
+      <div class="section-head">
+        <div class="hw-brand">
+          <img src="assets/img/housewright-icon.png" width="52" height="52" alt="">
+          <span class="wordmark">House<span>wright</span></span>
         </div>
-        <p><strong>Our main product, and the work we spend our days on.</strong> Housewright is job management for residential general contractors, built around the way money moves on a job. Three apps share one set of numbers.</p>
+        <h2 id="hw-title">One suite for the office, the truck and the job site.</h2>
+        <p>Housewright is our primary product. Desktop runs the office, Companion puts the job on the crew's phones, and Calc does the field math. The office and the phones work from the same records.</p>
       </div>
 
-      <article class="product product-desktop">
+      <div class="tabs" role="tablist" aria-label="Housewright apps">
+        <button role="tab" id="tab-desktop" aria-controls="panel-desktop" aria-selected="true">Desktop</button>
+        <button role="tab" id="tab-companion" aria-controls="panel-companion" aria-selected="false">Companion</button>
+        <button role="tab" id="tab-calc" aria-controls="panel-calc" aria-selected="false">Calc</button>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-desktop" aria-labelledby="tab-desktop">
         <div>
           <h3>Housewright Desktop</h3>
-          <p class="meta">Mac and Windows. <span class="soon">Coming soon.</span></p>
-          <p class="desc">Estimates, budgets, the schedule, daily logs, change orders and applications for payment. It runs on your own computer, keeps working with no internet, and keeps your numbers in one file that belongs to you.</p>
+          <p class="meta">For Mac and Windows. <span>Coming soon.</span></p>
+          <p class="desc">Run the job from the estimate to the final payment on a computer you own. It keeps working with no internet and keeps your numbers in one file that belongs to you.</p>
+          <ul class="checks">
+            <li>Estimates and proposals your client signs from a link</li>
+            <li>Approved estimates become the budget and schedule of values</li>
+            <li>Gantt schedules for each job and across every job</li>
+            <li>Daily logs, tasks, punch lists and crew time</li>
+            <li>Change orders, pay applications, retainage and lien waivers</li>
+            <li>Job cost and cash flow reports, with a push to QuickBooks Online</li>
+          </ul>
+          <a class="more" href="https://housewright.app/desktop/">More about Desktop</a>
         </div>
-        <div>
-          <figure class="shot"><img src="assets/img/hw-desktop-sov.webp" width="2200" height="1358" alt="Housewright Desktop showing the schedule of values for a sample custom home: scheduled value, previous billing, this period and balance to finish for each line."></figure>
-          <p class="caption">The schedule of values for a sample job. Every screenshot here shows a made-up builder.</p>
-        </div>
-      </article>
-
-      <div class="phones">
-        <article class="product product-phone">
-          <div>
-            <h3>Housewright Companion</h3>
-            <p class="meta">iPhone. <span class="soon">Coming soon.</span></p>
-            <p class="desc">The crew's phone: the time clock, tasks and the punch list, daily logs, photos and floor plans. It works with no signal and syncs with the office when it can.</p>
-          </div>
-          <figure class="shot"><img src="assets/img/hw-companion-punch.webp" width="800" height="1739" loading="lazy" alt="Housewright Companion on iPhone showing a punch list grouped by room."></figure>
-        </article>
-        <article class="product product-phone">
-          <div>
-            <h3>Housewright Calc</h3>
-            <p class="meta">iPhone and iPad. <span class="soon">Coming to the App Store.</span></p>
-            <p class="desc">The construction calculator. Feet, inches and fractions, 34 trade calculators, and drawings of what you sized, live as you type.</p>
-          </div>
-          <figure class="shot"><img src="assets/img/hw-calc-stairs.webp" width="800" height="1738" loading="lazy" alt="Housewright Calc on iPhone laying out a stair: 16 risers at 6-3/4 inches, with the stringer drawn and dimensioned."></figure>
-        </article>
+        <figure class="shot"><img src="assets/img/hw-desktop-today.webp" width="2200" height="1358" loading="lazy" alt="The Today screen in Housewright Desktop: pay apps waiting to be paid, change orders waiting on a signature, and late tasks across jobs."></figure>
       </div>
 
-      <p class="hw-more">Read more about each app at <a href="https://housewright.app/">housewright.app</a>.</p>
+      <div class="panel" role="tabpanel" id="panel-companion" aria-labelledby="tab-companion">
+        <div>
+          <h3>Housewright Companion</h3>
+          <p class="meta">For iPhone. <span>Coming soon.</span></p>
+          <p class="desc">The crew's phone. It works with no signal and syncs with the office when it can.</p>
+          <ul class="checks">
+            <li>Clock in, switch jobs and enter time for a whole crew</li>
+            <li>Tasks and punch lists, with the after photo</li>
+            <li>Daily logs with the weather filled in</li>
+            <li>The current drawing set, with the office's markups</li>
+            <li>Floor plans from a LiDAR room scan</li>
+            <li>Includes Housewright Calc Pro for the whole crew</li>
+          </ul>
+          <a class="more" href="https://housewright.app/companion/">More about Companion</a>
+        </div>
+        <figure class="shot shot-phone"><img src="assets/img/hw-companion-sheet.webp" width="800" height="1739" loading="lazy" alt="Housewright Companion showing sheet A-101 with two markups from the office and its revision history."></figure>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-calc" aria-labelledby="tab-calc">
+        <div>
+          <h3>Housewright Calc</h3>
+          <p class="meta">For iPhone and iPad. <span>Coming to the App Store.</span></p>
+          <p class="desc">The construction calculator, in feet, inches and fractions down to 1/64".</p>
+          <ul class="checks">
+            <li>34 trade calculators, from stairs and rafters to decks and concrete</li>
+            <li>A drawing of what you sized on 31 of them, live as you type</li>
+            <li>A starting material list on 30, with waste</li>
+            <li>Code limits flagged where it checks them</li>
+            <li>Speak a measurement, or take one from a Bluetooth Bosch laser</li>
+            <li>Cut sheets with the drawing, inputs and materials on one page</li>
+          </ul>
+          <a class="more" href="https://housewright.app/calc/">More about Calc</a>
+        </div>
+        <figure class="shot shot-phone"><img src="assets/img/hw-calc-rafter.webp" width="800" height="1738" loading="lazy" alt="Housewright Calc sizing a roof rafter: 55 commons at 14 feet 6-7/16 inches, with the rafter drawn and dimensioned."></figure>
+      </div>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="how-title">
+  <section class="section" aria-labelledby="steps-title">
     <div class="wrap">
-      <h2 id="how-title">How we build Housewright</h2>
+      <div class="section-head">
+        <h2 id="steps-title">One job, start to finish.</h2>
+        <p>Housewright follows the money the way a job does, so nothing gets typed twice.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <div class="crop"><img src="assets/img/hw-desktop-estimate.webp" width="2200" height="1358" loading="lazy" alt="An estimate in Housewright, priced line by line."></div>
+          <h3>Price it</h3>
+          <p>Build the estimate from your own materials and crew rates. Approve it and it becomes the budget.</p>
+        </li>
+        <li>
+          <div class="crop"><img src="assets/img/hw-desktop-schedule.webp" width="2200" height="1358" loading="lazy" alt="A job's Gantt schedule in Housewright."></div>
+          <h3>Build it</h3>
+          <p>Schedule the work, tell the subs when things move, and keep a daily log on every job.</p>
+        </li>
+        <li>
+          <div class="crop"><img src="assets/img/hw-desktop-payapp.webp" width="2200" height="1358" loading="lazy" alt="A pay application in Housewright showing the current payment due."></div>
+          <h3>Bill it</h3>
+          <p>Pay applications built from the schedule of values, with change orders and retainage carried through.</p>
+        </li>
+        <li>
+          <div class="crop"><img src="assets/img/hw-desktop-jobcost.webp" width="2200" height="1358" loading="lazy" alt="A job cost report in Housewright."></div>
+          <h3>Know where you stand</h3>
+          <p>Job cost against budget and cash flow, from the same numbers you billed from.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="night trust section" aria-labelledby="trust-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="trust-title">Your records stay yours.</h2>
+        <p>Your job book lives on your own computer. When the crew's phones trade changes with the office, we pass them along sealed, and we can't open them.</p>
+      </div>
+      <div class="flow" aria-label="How sync works">
+        <div class="node"><h3>Your office</h3><p>The whole book, in one file on your computer.</p></div>
+        <div class="seal"><svg viewBox="0 0 64 24" aria-hidden="true"><path d="M2 12H56M50 6L56 12L50 18" fill="none" stroke="currentColor" stroke-width="2"/></svg>sealed</div>
+        <div class="node node-mid"><h3>Our relay</h3><p>Passes each change along. It can't read the client, the amount or the hours.</p></div>
+        <div class="seal"><svg viewBox="0 0 64 24" aria-hidden="true"><path d="M2 12H56M50 6L56 12L50 18" fill="none" stroke="currentColor" stroke-width="2"/></svg>sealed</div>
+        <div class="node"><h3>The crew's phones</h3><p>A working copy on each phone, with or without signal.</p></div>
+      </div>
       <div class="beliefs">
         <div>
-          <h3>Your records stay with you</h3>
-          <p>The whole book lives in one file on your own computer. No connection, no problem: the desktop keeps working without the internet.</p>
+          <h3>Works with no internet</h3>
+          <p>Desktop keeps working without a connection. Phones keep working without signal and catch up when they can.</p>
+        </div>
+        <div>
+          <h3>Sealed on your devices</h3>
+          <p>Each change is encrypted with a key your own devices make when you pair them. That key never leaves them.</p>
         </div>
         <div>
           <h3>Buy it once, keep it</h3>
-          <p>Housewright is software you own, not rent on your own records. Phone sync costs us a server every month, so it is a separate, optional service.</p>
-        </div>
-        <div>
-          <h3>We can't read your jobs</h3>
-          <p>When phones and the office trade changes, each one is sealed on the device before it leaves. The relay we run passes it along and can't open it.</p>
+          <p>Housewright is software you own. Phone sync runs on a server we pay for monthly, so it's a separate, optional service.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section" id="company" aria-labelledby="company-title">
-    <div class="wrap company">
-      <div class="intro">
-        <h2 id="company-title">The company</h2>
-        <p>Triplehowl LLC designs, builds and sells software. Housewright is our primary product, and the code, designs and name behind it are owned by Triplehowl LLC.</p>
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div class="copy">
+        <h2 id="about-title">About Triplehowl</h2>
+        <p>Triplehowl LLC is a software company. We design, build and sell the Housewright suite, and we own the code, designs and name behind it.</p>
+        <p>We build for residential general contractors running real crews on remodels, additions and custom homes. A feature has to earn its place on a Tuesday afternoon on a job site, and every number Housewright prints has to be right to the penny.</p>
       </div>
       <dl class="record">
         <div><dt>Legal name</dt><dd>Triplehowl LLC</dd></div>
         <div><dt>Business</dt><dd>Software development and publishing</dd></div>
-        <div><dt>Products</dt><dd>Housewright<span>Housewright Desktop, Housewright Companion, Housewright Calc</span></dd></div>
+        <div><dt>Primary product</dt><dd>Housewright<span>Housewright Desktop, Housewright Companion, Housewright Calc</span></dd></div>
         <div><dt>Product website</dt><dd><a href="https://housewright.app/">housewright.app</a></dd></div>
         <div><dt>Company website</dt><dd><a href="https://www.triplehowl.com/">triplehowl.com</a></dd></div>
         <div><dt>Email</dt><dd><a href="mailto:info@triplehowl.com">info@triplehowl.com</a></dd></div>
@@ -139,13 +220,12 @@
     </div>
   </section>
 
-  <section class="section" id="contact" aria-labelledby="contact-title">
-    <div class="wrap contact">
-      <h2 id="contact-title">Contact</h2>
+  <section class="contact section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <h2 id="contact-title">Talk to us.</h2>
       <div>
-        <p>Email is the fastest way to reach us, whether it's about buying Housewright, help with one of the apps, a partnership or press.</p>
+        <p>Email is the best way to reach us, for anything from a demo of Housewright to help with one of the apps, a partnership or press.</p>
         <a class="email" href="mailto:info@triplehowl.com">info@triplehowl.com</a>
-        <p style="margin-top:24px">Help for Housewright Calc lives at <a href="https://housewright.app/calc/">housewright.app/calc</a>.</p>
       </div>
     </div>
   </section>
@@ -153,12 +233,42 @@
 
 <footer class="foot">
   <div class="wrap">
-    <p>© 2026 Triplehowl LLC. Housewright is a product of Triplehowl LLC.</p>
-    <ul>
-      <li><a href="https://housewright.app/">Housewright</a></li>
-      <li><a href="privacy.html">Privacy</a></li>
-      <li><a href="mailto:info@triplehowl.com">Email us</a></li>
-    </ul>
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="./" aria-label="Triplehowl LLC, home">
+          <svg class="mark" viewBox="0 0 72 64" aria-hidden="true"><circle class="moon" cx="54" cy="25" r="11.5"/><path class="gap" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/><path class="roofs" d="M6 58V42L16 32L26 42L36 32L46 42L56 32L66 42V58Z"/><path class="walls" d="M26 42V58M46 42V58"/></svg>
+          Triplehowl
+        </a>
+        <p>Makers of Housewright.</p>
+      </div>
+      <div>
+        <h3>Housewright</h3>
+        <ul>
+          <li><a href="https://housewright.app/desktop/">Desktop</a></li>
+          <li><a href="https://housewright.app/companion/">Companion</a></li>
+          <li><a href="https://housewright.app/calc/">Calc</a></li>
+          <li><a href="https://housewright.app/">housewright.app</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Email</h3>
+        <ul>
+          <li><a href="mailto:info@triplehowl.com">info@triplehowl.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <p>© 2026 Triplehowl LLC. All rights reserved.</p>
+      <p>Housewright is a product of Triplehowl LLC.</p>
+    </div>
   </div>
 </footer>
 </body>
